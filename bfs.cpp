@@ -254,7 +254,7 @@ Node bfs(vector<char> *start, vector<char> *goal){
 
 int main(int argc, char* argv[]){
 	if (argc != 2) {
-		cout << "Usage: " << argv[0] << " [file_name.dat]\n";
+		cout << "Usage: " << argv[0] << " [file with start/solution]\n";
 		exit(EXIT_FAILURE);
 	}
 	
